@@ -1,8 +1,8 @@
-FROM tozd/runit
+FROM tozd/runit:ubuntu-xenial
 
 EXPOSE 5001/tcp
 
 RUN apt-get update -q -q && \
- apt-get --yes --force-yes install iperf
+ apt-get --yes install iperf
 
 COPY ./etc /etc
