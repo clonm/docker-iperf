@@ -1,0 +1,1 @@
+Make sure that the ip address in the run.sh file matches the ip adress of your local machine. Change variable SERVER_IP to match your ip address before running.  
