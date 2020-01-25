@@ -1,4 +1,4 @@
-FROM tozd/runit:ubuntu-xenial
+FROM tozd/runit:ubuntu-bionic
 
 EXPOSE 5001/tcp
 
